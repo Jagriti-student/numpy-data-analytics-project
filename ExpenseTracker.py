@@ -157,6 +157,9 @@ print("Median of Expenses : ",np.median(expenses));
 print("Standard Deviation of Expenses : ",np.std(expenses));
 
 
+#Find variance of expenses.
+print("Variance of Expenses : ",np.var(expenses))
+
 #Calculate percentage contribution of each category to total expenses.
 total_expense_category=expenses.sum(axis=0)
 result=np.sum(expenses)
